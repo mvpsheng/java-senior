@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="webDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="generic" target="1.8" />
+      <module name="redisdemo" target="1.8" />
+      <module name="springDemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="redisdemo" options="-parameters" />
+      <module name="springDemo" options="-parameters" />
+      <module name="webDemo" options="-parameters -verbose -bootclasspath $USER_HOME$/.jdks/corretto-1.8.0_292/jre/lib/rt.jar;$USER_HOME$/.jdks/corretto-1.8.0_292/jre/lib/jce.jar" />
+    </option>
+  </component>
+</project>

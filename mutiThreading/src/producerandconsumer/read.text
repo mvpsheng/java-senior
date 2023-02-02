@@ -1,0 +1,3 @@
+1.生产者消费者模型第一种实现方式，
+通过BlockingQueue实现,BlockQueue内部实现是基于ReentrantLock,
+所以第一种方式是有锁实现，通过PcData作为中间缓冲区，缓解两端速度差异，确保系统正确运行。

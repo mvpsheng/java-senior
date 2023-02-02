@@ -1,0 +1,28 @@
+GET http://localhost:8080/say-hello
+
+<> 2021-10-07T180213.404.html
+
+###
+
+GET http://localhost:8080
+
+<> 2021-10-07T180147.404.html
+
+###
+
+GET http://localhost:8080/say-hello
+
+###
+
+GET http://localhost:8080
+
+###
+
+GET http://localhost:8080/helloworld
+
+###
+
+GET http://localhost:8080/Hello
+
+###
+

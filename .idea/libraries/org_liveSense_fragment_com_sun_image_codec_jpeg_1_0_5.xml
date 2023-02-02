@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.liveSense.fragment.com.sun.image.codec.jpeg-1.0.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../downloads/maven/maven_warehouse/imageEncode/org.liveSense.fragment.com.sun.image.codec.jpeg-1.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
