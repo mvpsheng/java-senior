@@ -6,6 +6,6 @@ package observerPattern;
  * Date: 2021/8/18  13:22
  */
 public abstract class Observer {
-    protected Subject subject;
+    protected observerPattern.Subject subject;
     public abstract void update();
 }

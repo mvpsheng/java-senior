@@ -1,4 +1,4 @@
-package observerPattern;
+package behavioural.observerPattern;
 
 /**
  * FileName: ObserverPatternDemo
@@ -7,10 +7,10 @@ package observerPattern;
  */
 public class ObserverPatternDemo {
     public static void main(String[] args) {
-        Subject subject = new Subject();
-        new BinaryObserver(subject);
-        new HexaObserver(subject);
-        new OctalObserver(subject);
+        observerPattern.Subject subject = new observerPattern.Subject();
+        new observerPattern.BinaryObserver(subject);
+        new observerPattern.HexaObserver(subject);
+        new observerPattern.OctalObserver(subject);
 
         System.out.println("First State Change: 15");
         subject.setState(15);

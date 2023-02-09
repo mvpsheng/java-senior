@@ -5,8 +5,8 @@ package observerPattern;
  * author: gxs
  * Date: 2021/8/18  13:25
  */
-public class OctalObserver extends Observer{
-    public OctalObserver (Subject subject){
+public class OctalObserver extends observerPattern.Observer {
+    public OctalObserver (observerPattern.Subject subject){
         this.subject = subject;
         this.subject.attach(this);
     }

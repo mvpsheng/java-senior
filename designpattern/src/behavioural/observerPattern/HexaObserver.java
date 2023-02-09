@@ -5,8 +5,8 @@ package observerPattern;
  * author: gxs
  * Date: 2021/8/18  13:27
  */
-public class HexaObserver extends Observer{
-    public HexaObserver(Subject subject){
+public class HexaObserver extends observerPattern.Observer {
+    public HexaObserver(observerPattern.Subject subject){
         this.subject = subject;
         this.subject.attach(this);
     }

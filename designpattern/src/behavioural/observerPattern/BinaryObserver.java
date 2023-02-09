@@ -5,8 +5,8 @@ package observerPattern;
  * author: gxs
  * Date: 2021/8/18  13:23
  */
-public class BinaryObserver extends Observer{
-    public BinaryObserver(Subject subject){
+public class BinaryObserver extends observerPattern.Observer {
+    public BinaryObserver(observerPattern.Subject subject){
         this.subject = subject;
         this.subject.attach(this);
     }
