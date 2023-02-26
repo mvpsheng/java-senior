@@ -1,4 +1,4 @@
-package typeinfo.pets;
+package chap14.typeinfo.pets;
 
 /**
  * FileName: Person

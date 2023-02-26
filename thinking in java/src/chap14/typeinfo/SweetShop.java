@@ -1,4 +1,4 @@
-package typeinfo;
+package chap14.typeinfo;
 
 import static jdk.nashorn.internal.objects.Global.print;
 
